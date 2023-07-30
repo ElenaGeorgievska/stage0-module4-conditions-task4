@@ -5,6 +5,8 @@ public class TernaryPrinter {
         String result = "0";
         result = (first > second) ? "first" : "second";
 
+        result = (second > first) ? "second" : "first";
+
         result = (first == second) ? "second" : "first";
         System.out.println(result);
 
@@ -15,7 +17,4 @@ public class TernaryPrinter {
         tp.printWhichIsBigger(1, 9);
     }
 
-    //Implement the program that will consume 2 numbers and based on their comparison will print to console which is bigger.
-    //Comparison should be implemented with ternary operator, which should be used inside of System.out.println method.(print "first", if the first is bigger and "second" in the rest cases).
-    //System.out.println should be used only 1 time
 }
