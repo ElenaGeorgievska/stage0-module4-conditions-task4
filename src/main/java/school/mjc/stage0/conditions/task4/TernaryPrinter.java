@@ -2,14 +2,17 @@ package school.mjc.stage0.conditions.task4;
 
 public class TernaryPrinter {
     public void printWhichIsBigger(int first, int second) {
-        int result = 0;
-        result = first > second ? first : second;
+        String result = "0";
+        result = (first > second) ? "first" : "second";
+
+        result = (first == second) ? "second" : "first";
         System.out.println(result);
+
     }
 
     public static void main(String[] args) {
         TernaryPrinter tp = new TernaryPrinter();
-        tp.printWhichIsBigger(1, 1);
+        tp.printWhichIsBigger(1, 9);
     }
 
     //Implement the program that will consume 2 numbers and based on their comparison will print to console which is bigger.

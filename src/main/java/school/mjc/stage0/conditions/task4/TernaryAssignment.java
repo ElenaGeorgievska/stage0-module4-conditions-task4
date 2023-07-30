@@ -11,6 +11,7 @@ public class TernaryAssignment {
         ta.assignAndPrintBasedOnWhichBigger(10, 19);
     }
 
-    //Create a variable "int result" and dependent on the result comparison of 2 variables from method arguments and the assign to the created variable the value using ternary result: if the first is bigger -> 10 otherwise -10.
-    //And print result variable.
+    //Create a variable "int result" and dependent on the result comparison of 2 variables from method arguments
+    // and the assign to the created variable the value using ternary result: if the first is bigger -> 10 otherwise -10.
+    // And print result variable.
 }
