@@ -2,13 +2,10 @@ package school.mjc.stage0.conditions.task4;
 
 public class TernaryPrinter {
     public void printWhichIsBigger(int first, int second) {
-        String result = "0";
-        result = (first > second) ? "first" : "second";
 
-        result = (second > first) ? "second" : "first";
+        boolean condition = (second >= first);
 
-        result = (first == second) ? "second" : "first";
-        System.out.println(result);
+        System.out.println(condition ? "second" : "first");
 
     }
 
